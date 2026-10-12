@@ -1,5 +1,0 @@
-{
-  // VS Code offers to install these when you open the folder.
-  // Live Server runs the app on http://127.0.0.1:5500 and reloads the page when you save a file.
-  "recommendations": ["ritwickdey.LiveServer"]
-}
