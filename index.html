@@ -3,29 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Catchall</title>
+  <title>Byte OP</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- A warning appears here if the browser blocks local storage -->
   <div class="wrap">
     <div id="banner"></div>
 
-    <!-- Every screen (inbox, item, form) is drawn inside this element by the scripts below -->
     <main id="app" tabindex="-1">
       <p class="loading">Loading your items…</p>
-      <noscript><p>Catchall needs JavaScript turned on to run.</p></noscript>
+      <noscript><p>Byte OP needs JavaScript turned on to run.</p></noscript>
     </main>
   </div>
 
-  <!-- Short messages such as "Archived" -->
   <div id="toast" role="status" aria-live="polite"></div>
 
-  <!-- The order matters: each file may use the ones above it.
-       These are plain scripts (not modules) so the app also works
-       when you open index.html straight from your folder. -->
   <script src="js/helpers.js"></script>
   <script src="js/storage.js"></script>
   <script src="js/images.js"></script>
